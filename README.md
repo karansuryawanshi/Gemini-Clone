@@ -63,6 +63,7 @@ App runs at: http://localhost:5173
 
 ## Folder & Component Structure
 
+```
 src/
 ├── assets/ # Icons & images
 ├── components/ # Reusable components
@@ -85,6 +86,7 @@ src/
 ├── App.jsx
 ├── main.jsx
 └── index.css
+```
 
 ## Key Implementation Details
 
