@@ -4,9 +4,9 @@ A modern Gemini AI Chat App frontend built using **React**, **Tailwind CSS**, **
 
 ---
 
-## 🔗 Live Preview
+## Live Preview
 
-🌐 **Live Link**: [https://your-deployment-link.com](https://your-deployment-link.com)
+**Live Link**: [https://your-deployment-link.com](https://your-deployment-link.com)
 
 ---
 
