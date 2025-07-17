@@ -41,7 +41,6 @@ const DashboardPage = () => {
   ]);
   const [isTyping, setIsTyping] = useState(false);
 
-  // const [chatrooms, setChatrooms] = useState([]);
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [newTitle, setNewTitle] = useState("");
 
@@ -74,7 +73,6 @@ const DashboardPage = () => {
 
     setMessages((prev) => [...prev, newMessage]);
     setIsTyping(true);
-    // alert("Message sent");
 
     setTimeout(() => {
       const aiResponse = {
@@ -139,7 +137,7 @@ const DashboardPage = () => {
   };
 
   const createChatroom = () => {
-    setIsModalOpen(true); // just opens modal
+    setIsModalOpen(true);
   };
 
   const handleModalSubmit = () => {

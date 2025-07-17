@@ -46,7 +46,7 @@ const LoginPage = () => {
         setCurrentRoute("dashboard");
         toast.success("Welcome to Gemini Chat!");
       } else {
-        toast.success("Invalid OTP. Try 1234", "error");
+        toast.error("Invalid OTP. Try 1234", "error");
       }
     }, 1000);
   };
@@ -86,7 +86,7 @@ const LoginPage = () => {
         <div className="text-center mb-8">
           <div
             className={`inline-flex items-center justify-center w-16 h-16 rounded-full mb-4 ${
-              darkMode ? "bg-neutral-900" : "bg-blue-500"
+              darkMode ? "bg-neutral-900" : "bg-neutral-100"
             }`}
           >
             <Star className="w-8 h-8 text-orange-500 fill-orange-400" />

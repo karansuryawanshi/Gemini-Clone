@@ -68,7 +68,6 @@ const Sidebar = ({
             </button>
           </div>
 
-          {/* Search */}
           <div className="relative mb-4">
             <Search
               className={`absolute left-3 top-1/2 transform -translate-y-1/2 w-4 h-4 ${
@@ -89,7 +88,6 @@ const Sidebar = ({
             />
           </div>
 
-          {/* Chatroom list */}
           <div className="space-y-2">
             {filteredChatrooms.map((room) => (
               <ChatroomItem

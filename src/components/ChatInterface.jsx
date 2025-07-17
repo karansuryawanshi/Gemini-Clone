@@ -10,7 +10,6 @@ const ChatInterface = ({
   onSendImage,
   messages,
   onSendMessage,
-  // onImageUpload,
   isTyping,
   darkMode,
 }) => {
@@ -41,7 +40,7 @@ const ChatInterface = ({
 
       const reader = new FileReader();
       reader.onload = (e) => {
-        onSendImage(e.target.result); // call parent to send image message
+        onSendImage(e.target.result);
       };
 
       reader.readAsDataURL(compressedFile);
@@ -85,7 +84,7 @@ const ChatInterface = ({
             darkMode={darkMode}
           />
         ))}
-
+        {/* While AI is typing */}
         {isTyping && (
           <div className="flex justify-start">
             <div
@@ -115,7 +114,6 @@ const ChatInterface = ({
             </div>
           </div>
         )}
-
         <div ref={messagesEndRef} />
       </div>
       <div

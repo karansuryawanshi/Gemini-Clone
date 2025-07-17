@@ -3,7 +3,6 @@ import React from "react";
 const DashboardSkeleton = () => {
   return (
     <div className="flex h-screen animate-pulse">
-      {/* Sidebar */}
       <div className="w-1/4 bg-white border-r p-4 space-y-4">
         <div className="h-10 bg-gray-200 rounded" />
         <div className="h-8 bg-gray-200 rounded w-3/4" />
@@ -12,14 +11,11 @@ const DashboardSkeleton = () => {
         ))}
       </div>
 
-      {/* Chat Area */}
       <div className="flex-1 flex flex-col bg-neutral-100">
-        {/* Chat Header */}
         <div className="h-14 bg-white border-b px-6 flex items-center">
           <div className="h-6 w-40 bg-gray-200 rounded" />
         </div>
 
-        {/* Messages */}
         <div className="flex-1 p-6 space-y-4 overflow-y-auto">
           {[...Array(5)].map((_, i) => (
             <div
@@ -34,7 +30,6 @@ const DashboardSkeleton = () => {
           ))}
         </div>
 
-        {/* Input */}
         <div className="h-16 bg-white border-t flex items-center px-4 gap-2">
           <div className="h-10 w-10 bg-gray-200 rounded-full" />
           <div className="flex-1 h-10 bg-gray-200 rounded" />

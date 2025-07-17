@@ -15,10 +15,10 @@ const Typewriter = ({ text, speed = 30 }) => {
       }
     };
 
-    setDisplayedText(""); // Reset before typing
-    type(); // Start typing
+    setDisplayedText("");
+    type();
 
-    return () => clearTimeout(animationFrame); // Cleanup
+    return () => clearTimeout(animationFrame);
   }, [text, speed]);
 
   return <p>{displayedText}</p>;

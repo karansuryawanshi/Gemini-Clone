@@ -10,16 +10,13 @@ const LoginSkeleton = () => {
         <div className="h-4 w-2/3 bg-neutral-200 rounded" />
 
         <div className="w-full space-y-4 mt-4">
-          {/* Country Dropdown */}
           <div className="h-12 bg-neutral-200 rounded w-full" />
 
-          {/* Phone Number Input */}
           <div className="flex gap-2">
             <div className="w-1/4 h-12 bg-neutral-200 rounded" />
             <div className="w-3/4 h-12 bg-neutral-200 rounded" />
           </div>
 
-          {/* Button */}
           <div className="h-12 bg-neutral-300 rounded w-full" />
         </div>
       </div>

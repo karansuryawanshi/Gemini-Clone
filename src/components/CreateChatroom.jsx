@@ -13,7 +13,6 @@ const CreateChatroom = () => {
 
   setChatrooms((prev) => [...prev, newChatroom]);
   toast.success("Chatroom created successfully");
-  // alert("C hatroom created");
 };
 
 const deleteChatroom = (id) => {
